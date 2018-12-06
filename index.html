@@ -1,39 +1,36 @@
 <!DOCTYPE html>
 <html>
 	<head>
-	  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-      <link href="css/styles.css" rel="stylesheet" type="text/css">
-      <script   src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-      <script src="js/scripts.js"></script>
-      <title>Kyulu Jonah</title>
+		<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+		<link href="css/styles.css" rel="stylesheet" type="text/css">
+		<script   src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+		<script src="js/scripts.js"></script>
+		<title>Kyulu Jonah</title>
 	</head>
 	<body>
+		<div class="container">
+		<form class="questionForm" id="q1" data-question="1">
+			<h3>1. What is the full term of JS?</h3>
+			<div class="radio">
+				<label><input type="radio" name="language" value="javascript" checked>javaScript</label>
+			</div>
+			<div class="radio">
+				<label><input type="radio" name="language" value="javascriptquery">JavaSriptQuery</label>
+			</div>
+			<div class="radio">
+				<label><input type="radio" name="language" value="none">None</label>
+			</div>
+			<div class="radio">
+				<label><input type="radio" name="language" value="Hyper-Text Mutilated Language">Hyper-Text Markup</label> 
 
-	  <h3>1. What is the full term of JS?</h3>
-      <div class="radio">
-        <label>
-          <input type="radio" name="language" value="javascript" checked>
-          javaScript
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="language" value="javascriptquery">
-          JavaSriptQuery
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="language" value="none">
-          None
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="language" value="Hyper-Text Mutilated Language">
-          Hyper-Text Markup
-        </label>
-      </div>
+
+
+		</div>
+		</form> 
+			<div class="container"> 
+				<button id="submit">Submit</button>
+			</div>
+		</div>
 
 	</body>
 </html>
