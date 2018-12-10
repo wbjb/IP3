@@ -23,9 +23,9 @@ function submitAnswers(){
 		}
 	}
 		$("#hide").click(function(){
-    		$("section").fadehide();
+    		$("section").slideUp();
     		var results = document.getElementById('results');
-			results.innerHTML = 'Score:'+score/total*100'%';
+			results.innerHTML = 'Score:'+score/total*100+"%";
 		});
 
 	

@@ -1,6 +1,5 @@
 	
 
-}
 body{
 	background-color: #00bfff;
 	padding: 10px;
@@ -14,7 +13,9 @@ body{
 }
 
 .score {
-	font-size: 40px;
+	font-size: 140px;
 	color: salmon;
-	
+	float: center;
+	text-align: center;
+	padding-top: 400px;
 }
