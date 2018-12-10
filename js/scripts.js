@@ -22,10 +22,16 @@ function submitAnswers(){
 			score++;
 		}
 	}
+		$("#hide").click(function(){
+    		$("section").hide();
+    		var results = document.getElementById('results');
+			results.innerHTML = 'Score:'+score/total*100;
+		});
 
-	var results = document.getElementById('results');
-	results.innerHTML = 'Score:'+score/total*100;
-	alert('You got '+score/total*100+'%');
+	
+	
 
-	return false;
+		return false;
+
+
 }
