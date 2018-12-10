@@ -1,5 +1,5 @@
 function submitAnswers(){
-	var total = 5;
+	var total = 10;
 	var score = 0;
 
 
