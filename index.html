@@ -10,16 +10,23 @@
 	</head>
 	<body>
 
-	 	<section>
+		<div id="hide">
+	 	 <section>
 			<div class="container">
-				<div id="results"></div>
+			<div class="box">
 				<form name="questionForm" onsubmit="return submitAnswers()">
+				<header>
+					<h1>Javascript/HTML test</h1>
+				</header>
+				
+
 					<h3>1. What is the full term of JS?</h3>
 
 
 					<input type="radio" name="q1" value="a" id="q1a">J
 
-					<input type="radio" name="q1" value="b" id="q2a">JS
+
+					<label><input type="radio" name="q1" value="b" id="q2a">JS</label>
 					
 						
 					<input type="radio" name="q1" value="c" id="q3a">JavaScript
@@ -164,13 +171,19 @@
 
 
 					<input type="submit" value="submit answers">
+				</div>
 					
 
 				</form>
+				
+			
 			</div>
+			
 
-		
+		<footer></footer>
 		</section>
+		<div id="results"></div>
+	</div>
 
 	</body>
 </html>
