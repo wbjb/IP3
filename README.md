@@ -1,23 +1,23 @@
 # Project Title
 
-HTML/JAVASCRIPT TEST
+ HTML/JAVASCRIPT TEST
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 
+ These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 
 
 ### Prerequisites
 
-Have a recent browser, such as Google Chrome or Internet Explorer and make sure that they are up to date, whichever you may choose
+ Have a recent browser, such as Google Chrome or Internet Explorer and make sure that they are up to date, whichever you may choose
 
 
 ### Installing
 
-Clone from repository and open the folder called 'Ipthree' to reveal its contents. They have no infections, so it is safe to access the files.
+ Clone from repository and open the folder called 'Ipthree' to reveal its contents. They have no infections, so it is safe to access the files.
 
 ## Running the tests
 
-Simply, answering the questions by clicking the radio buttons will be submitted, after clicking the submit answers button and then they will be checked. Clicking once more will reveal your score.
+ Simply, answering the questions by clicking the radio buttons will be submitted, after clicking the submit answers button and then they will be checked. Clicking once more will reveal your score.
 
 
 ## Deployment
@@ -26,13 +26,13 @@ Open the index.html file in the folder.
 
 ## Built With
 
-*Sublime 3
+ Sublime 3
 
-*Mozilla Firefox console window
+ Mozilla Firefox console window
 
-*Kali Linux
+ Kali Linux
 
-*Windows 8.1
+ Windows 8.1
 
 
 
