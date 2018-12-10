@@ -5,32 +5,172 @@
 		<link href="css/styles.css" rel="stylesheet" type="text/css">
 		<script   src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 		<script src="js/scripts.js"></script>
+		 <meta charset="UTF-8">
 		<title>Kyulu Jonah</title>
 	</head>
 	<body>
-		<div class="container">
-		<form class="questionForm" id="q1" data-question="1">
-			<h3>1. What is the full term of JS?</h3>
-			<div class="radio">
-				<label><input type="radio" name="language" value="javascript" checked>javaScript</label>
-			</div>
-			<div class="radio">
-				<label><input type="radio" name="language" value="javascriptquery">JavaSriptQuery</label>
-			</div>
-			<div class="radio">
-				<label><input type="radio" name="language" value="none">None</label>
-			</div>
-			<div class="radio">
-				<label><input type="radio" name="language" value="Hyper-Text Mutilated Language">Hyper-Text Markup</label> 
+
+	 	<section>
+			<div class="container">
+				<div id="results"></div>
+				<form name="questionForm" onsubmit="return submitAnswers()">
+					<h3>1. What is the full term of JS?</h3>
 
 
+					<input type="radio" name="q1" value="a" id="q1a">J
 
-		</div>
-		</form> 
-			<div class="container"> 
-				<button id="submit">Submit</button>
+					<input type="radio" name="q1" value="b" id="q2a">JS
+					
+						
+					<input type="radio" name="q1" value="c" id="q3a">JavaScript
+					
+						
+					<input type="radio" name="q1" value="d" id="q4a">PHP
+					
+
+
+					<h3>2. What is the full term of HTML?</h3>
+
+
+						
+					<input type="radio" name="q2" value="a" id="q1b">j
+						
+						
+					<input type="radio" name="q2" value="b" id="q2b">JS
+						
+						
+					<input type="radio" name="q2" value="c" id="q3b">JQ
+						
+						
+					<input type="radio" name="q2" value="d" id="q4b"> None of the above
+						
+
+
+					<h3>3. Is it important to master everything about JQuery?</h3>
+
+
+						
+					<input type="radio" name="q3" value="a" id="q1c"> J
+					
+						
+					<input type="radio" name="q3" value="b" id="q2c"> jS
+					
+						
+					<input type="radio" name="q3" value="c" id="q3c"> JQ
+					
+					<input type="radio" name="q3" value="d" id="q4c"> No it isn't. It is impossible because javascript is updated too frequently
+					
+
+
+					<h3>4. What is bootstrap?</h3>
+
+						
+					<input type="radio" name="q4" value="a" id="q1d"> J<
+						
+						
+					<input type="radio" name="q4" value="b" id="q2d">JS
+						
+						
+					<input type="radio" name="q4" value="c" id="q3d">JQ
+						
+						
+					<input type="radio" name="q4" value="d" id="q4d">None of the above
+
+
+					<h3>5. What is bootstrap?</h3>
+
+						
+					<input type="radio" name="q5" value="a" id="q1d"> J
+						
+						
+					<input type="radio" name="q5" value="b" id="q2d">JS
+						
+						
+					<input type="radio" name="q5" value="c" id="q3d">A list of pre-defined actions for use in css
+						
+						
+					<input type="radio" name="q5" value="d" id="q4d">PHP
+
+					<h3>6. What is javascript?</h3>
+
+						
+					<input type="radio" name="q6" value="a" id="q1d"> A language
+						
+						
+					<input type="radio" name="q6" value="b" id="q2d">A human communication language
+						
+						
+					<input type="radio" name="q6" value="c" id="q3d">Nothing
+						
+						
+					<input type="radio" name="q6" value="d" id="q4d">the computer's speaking tongue
+
+
+					<h3>7. What is html?</h3>
+						
+					<input type="radio" name="q7" value="a" id="q1d"> a website designing language
+						
+						
+					<input type="radio" name="q7" value="b" id="q2d">a back end developing tool
+						
+						
+					<input type="radio" name="q7" value="c" id="q3d">a back end developing language
+						
+						
+					<input type="radio" name="q7" value="d" id="q4d">None of the above
+
+
+					<h3>8. What is jquery?</h3>
+						
+					<input type="radio" name="q8" value="a" id="q1d"> A language
+						
+						
+					<input type="radio" name="q8" value="b" id="q2d">A commandline function
+						
+						
+					<input type="radio" name="q8" value="c" id="q3d">A query
+						
+						
+					<input type="radio" name="q8" value="d" id="q4d">None of the above
+
+
+					<h3>9. Why is indentation important?</h3>
+						
+					<input type="radio" name="q9" value="a" id="q1d"> JS
+						
+						
+					<input type="radio" name="q9" value="b" id="q2d">Because it makes the document easy to read
+						
+						
+					<input type="radio" name="q9" value="c" id="q3d">JQ
+						
+						
+					<input type="radio" name="q9" value="d" id="q4d">PHP
+
+
+					<h3>10. What is HTML's long form?</h3>
+						
+					<input type="radio" name="q10" value="a" id="q1d"> Hyperplexed Markup Language
+						
+						
+					<input type="radio" name="q10" value="b" id="q2d">Hyper Text Markup Langage
+						
+						
+					<input type="radio" name="q10" value="c" id="q3d">Hyper Text Markup Language
+						
+						
+					<input type="radio" name="q10" value="d" id="q4d">Hyper Text Mother Tongue
+					
+
+
+					<input type="submit" value="submit answers">
+					
+
+				</form>
 			</div>
-		</div>
+
+		
+		</section>
 
 	</body>
 </html>
