@@ -10,9 +10,6 @@ These instructions will get you a copy of the project up and running on your loc
 
 Have a recent browser, such as Google Chrome or Internet Explorer and make sure that they are up to date, whichever you may choose
 
-```
-Give examples
-```
 
 ### Installing
 
